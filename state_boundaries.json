@@ -1,169 +1,159 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>state_boundaries</title>
-  </head>
-  <body>
-    <p>{<br>
-      &nbsp; "AL": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 30.223334,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 35.008028,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -88.473227,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -84.88908<br>
-      &nbsp; },<br>
-      &nbsp; "AK": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 51.214183,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 71.365162,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -179.148909,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": 179.77847<br>
-      &nbsp; },<br>
-      &nbsp; "AZ": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 31.332177,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 37.00426,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -114.81651,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -109.045223<br>
-      &nbsp; },<br>
-      &nbsp; "AR": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 33.004106,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 36.4996,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -94.617919,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -89.644395<br>
-      &nbsp; },<br>
-      &nbsp; "CA": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 32.534156,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 42.009518,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -124.409591,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -114.131211<br>
-      &nbsp; },<br>
-      &nbsp; "CO": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 36.992426,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 41.003444,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -109.060253,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -102.041524<br>
-      &nbsp; },<br>
-      &nbsp; "CT": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 40.980144,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 42.050587,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -73.727775,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -71.786994<br>
-      &nbsp; },<br>
-      &nbsp; "DE": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 38.451013,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 39.839007,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -75.788658,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -75.048939<br>
-      &nbsp; },<br>
-      &nbsp; "DC": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 38.791645,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 38.99511,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -77.119759,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -76.909395<br>
-      &nbsp; },<br>
-      &nbsp; "FL": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 24.523096,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 31.000888,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -87.634938,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -80.031362<br>
-      &nbsp; },<br>
-      &nbsp; "GA": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 30.357851,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 35.000659,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -85.605165,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -80.839729<br>
-      &nbsp; },<br>
-      &nbsp; "HI": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 18.910361,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 28.402123,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -178.334698,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -154.806773<br>
-      &nbsp; },<br>
-      &nbsp; "ID": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 41.988057,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 49.001146,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -117.243027,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -111.043564<br>
-      &nbsp; },<br>
-      &nbsp; "IL": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 36.970298,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 42.508481,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -91.513079,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -87.494756<br>
-      &nbsp; },<br>
-      &nbsp; "IN": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 37.771742,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 41.760592,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -88.09776,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -84.784579<br>
-      &nbsp; },<br>
-      &nbsp; "IA": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 40.375501,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 43.501196,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -96.639704,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -90.140061<br>
-      &nbsp; },<br>
-      &nbsp; "KS": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 36.993016,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 40.003162,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -102.051744,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -94.588413<br>
-      &nbsp; },<br>
-      &nbsp; "KY": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 36.497129,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 39.147458,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -89.571509,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -81.964971<br>
-      &nbsp; },<br>
-      &nbsp; "LA": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 28.928609,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 33.019457,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -94.043147,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -88.817017<br>
-      &nbsp; },<br>
-      &nbsp; "ME": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 42.977764,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 47.459686,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -71.083924,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -66.949895<br>
-      &nbsp; },<br>
-      &nbsp; "MD": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 37.911717,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 39.723043,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -79.487651,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -75.048939<br>
-      &nbsp; },<br>
-      &nbsp; "MA": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 41.237964,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 42.886589,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -73.508142,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -69.928393<br>
-      &nbsp; },<br>
-      &nbsp; "MI": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 41.696118,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 48.2388,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -90.418136,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -82.413474<br>
-      &nbsp; },<br>
-      &nbsp; "MN": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 43.499356,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 49.384358,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -97.239209,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -89.491739<br>
-      &nbsp; },<br>
-      &nbsp; "MS": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 30.173943,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 34.996052,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -91.655009,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -88.097888<br>
-      &nbsp; },<br>
-      &nbsp; "MO": {<br>
-      &nbsp;&nbsp;&nbsp; "min_lat": 35.995683,<br>
-      &nbsp;&nbsp;&nbsp; "max_lat": 40.61364,<br>
-      &nbsp;&nbsp;&nbsp; "min_lng": -95.774704,<br>
-      &nbsp;&nbsp;&nbsp; "max_lng": -89.098843<br>
-      &nbsp;<br>
-      ::contentReference[oaicite:5]{index=5}<br>
-      &nbsp;<br>
-    </p>
-  </body>
-</html>
+{
+      "AL": {
+       "min_lat": 30.223334,
+        "max_lat": 35.008028,
+       "min_lng": -88.473227,
+       "max_lng": -84.88908
+       },
+       "AK": {
+       "min_lat": 51.214183,
+       "max_lat": 71.365162,
+       "min_lng": -179.148909,
+       "max_lng": 179.77847
+       },
+       "AZ": {
+       "min_lat": 31.332177,
+       "max_lat": 37.00426,
+       "min_lng": -114.81651,
+       "max_lng": -109.045223
+       },
+       "AR": {
+       "min_lat": 33.004106,
+       "max_lat": 36.4996,
+       "min_lng": -94.617919,
+       "max_lng": -89.644395
+       },
+       "CA": {
+       "min_lat": 32.534156,
+       "max_lat": 42.009518,
+       "min_lng": -124.409591,
+       "max_lng": -114.131211
+       },
+       "CO": {
+       "min_lat": 36.992426,
+       "max_lat": 41.003444,
+       "min_lng": -109.060253,
+       "max_lng": -102.041524
+       },
+       "CT": {
+       "min_lat": 40.980144,
+       "max_lat": 42.050587,
+       "min_lng": -73.727775,
+       "max_lng": -71.786994
+       },
+       "DE": {
+       "min_lat": 38.451013,
+       "max_lat": 39.839007,
+       "min_lng": -75.788658,
+       "max_lng": -75.048939
+       },
+       "DC": {
+       "min_lat": 38.791645,
+       "max_lat": 38.99511,
+       "min_lng": -77.119759,
+       "max_lng": -76.909395
+       },
+       "FL": {
+       "min_lat": 24.523096,
+       "max_lat": 31.000888,
+       "min_lng": -87.634938,
+       "max_lng": -80.031362
+       },
+       "GA": {
+       "min_lat": 30.357851,
+       "max_lat": 35.000659,
+       "min_lng": -85.605165,
+       "max_lng": -80.839729
+       },
+       "HI": {
+       "min_lat": 18.910361,
+       "max_lat": 28.402123,
+       "min_lng": -178.334698,
+       "max_lng": -154.806773
+       },
+       "ID": {
+       "min_lat": 41.988057,
+       "max_lat": 49.001146,
+       "min_lng": -117.243027,
+       "max_lng": -111.043564
+       },
+       "IL": {
+       "min_lat": 36.970298,
+       "max_lat": 42.508481,
+       "min_lng": -91.513079,
+       "max_lng": -87.494756
+       },
+       "IN": {
+       "min_lat": 37.771742,
+       "max_lat": 41.760592,
+       "min_lng": -88.09776,
+       "max_lng": -84.784579
+       },
+       "IA": {
+       "min_lat": 40.375501,
+       "max_lat": 43.501196,
+       "min_lng": -96.639704,
+       "max_lng": -90.140061
+       },
+       "KS": {
+       "min_lat": 36.993016,
+       "max_lat": 40.003162,
+       "min_lng": -102.051744,
+       "max_lng": -94.588413
+       },
+       "KY": {
+       "min_lat": 36.497129,
+       "max_lat": 39.147458,
+       "min_lng": -89.571509,
+       "max_lng": -81.964971
+       },
+       "LA": {
+       "min_lat": 28.928609,
+       "max_lat": 33.019457,
+       "min_lng": -94.043147,
+       "max_lng": -88.817017
+       },
+       "ME": {
+       "min_lat": 42.977764,
+       "max_lat": 47.459686,
+       "min_lng": -71.083924,
+       "max_lng": -66.949895
+       },
+       "MD": {
+       "min_lat": 37.911717,
+       "max_lat": 39.723043,
+       "min_lng": -79.487651,
+       "max_lng": -75.048939
+       },
+       "MA": {
+       "min_lat": 41.237964,
+       "max_lat": 42.886589,
+       "min_lng": -73.508142,
+       "max_lng": -69.928393
+       },
+       "MI": {
+       "min_lat": 41.696118,
+       "max_lat": 48.2388,
+       "min_lng": -90.418136,
+       "max_lng": -82.413474
+       },
+       "MN": {
+       "min_lat": 43.499356,
+       "max_lat": 49.384358,
+       "min_lng": -97.239209,
+       "max_lng": -89.491739
+       },
+       "MS": {
+       "min_lat": 30.173943,
+       "max_lat": 34.996052,
+       "min_lng": -91.655009,
+       "max_lng": -88.097888
+       },
+       "MO": {
+       "min_lat": 35.995683,
+       "max_lat": 40.61364,
+       "min_lng": -95.774704,
+       "max_lng": -89.098843
+       }
+}
+ 
